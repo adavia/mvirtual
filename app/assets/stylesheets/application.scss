@@ -5,7 +5,6 @@
 
 body {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: 20px;
   color: #333333;
 }
 
@@ -36,7 +35,6 @@ h6 {
 .main {
   position: relative;
   width: 100%;
-  height: 100%;
   min-height: auto;
   overflow-y: hidden;
   background: url(bg-pattern.png), #7b4397;
@@ -45,6 +43,10 @@ h6 {
   color: #fff;
   text-align: center;
   .site-heading h1 {
-    font-size: 70px;
+    font-size: 50px;
   }
+}
+
+.contact-form {
+  margin-top: 20px;
 }

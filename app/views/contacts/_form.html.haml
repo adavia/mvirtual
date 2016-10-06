@@ -1,0 +1,8 @@
+= simple_form_for @contact do |f|
+  = f.input :name, label:false, placeholder: "Nombre Completo"
+  = f.input :email, label:false, placeholder: "Correo Electrónico"
+  = f.input :phone, label:false, placeholder: "Teléfono"
+  = f.input :cel_phone, label:false, placeholder: "Teléfono Alternativo"
+  = f.input :city, label:false, placeholder: "Ciudad"
+  = f.input :comment, label:false, placeholder: "Comentarios"
+  = f.button :submit, "Regístrate Ahora!!", class: "btn-block btn-primary"
