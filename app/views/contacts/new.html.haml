@@ -14,6 +14,11 @@
   .row
     .col-md-6.col-md-offset-3
       .contact-form
+        - if notice
+          .alert.alert-success.alert-white.rounded
+            .icon
+              %i.fa.fa-check
+            %p= notice
         = render "form"
         %p.text-uppercase.text-center Aceptamos todas las tarjetas de crédito
         .text-center
