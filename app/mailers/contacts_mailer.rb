@@ -8,6 +8,6 @@ class ContactsMailer < ApplicationMailer
   def submitted(contact)
     @contact = contact
 
-    mail to: "andresi.davia@gmail.com", subject: "Nuevo comentario de #{@contact.name}"
+    mail to: "asesor01@mayordomototal.com", subject: "Nuevo comentario de #{@contact.name}"
   end
 end
