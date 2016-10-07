@@ -8,6 +8,7 @@ class ContactsController < ApplicationController
 
     respond_to do |format|
       if @contact.save
+        ContactsMailer.submitted(@contact).deliver_later
         format.html { redirect_to root_url, notice:
           'Gracias por contactarse con nosotros. Nos estaremos comunicando
           a la brevedad para asesorarlo.' }

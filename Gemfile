@@ -17,6 +17,8 @@ gem 'font-awesome-rails', '~> 4.3'
 gem 'bootstrap-sass', '~> 3.3.6'
 # Use simple form
 gem 'simple_form'
+# Store ENV variables
+gem 'figaro'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
