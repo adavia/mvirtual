@@ -87,6 +87,8 @@ Rails.application.configure do
   # Mail config
   config.action_mailer.delivery_method = :smtp
 
+  ActionMailer::Base.delivery_method = :smtp
+
   # SMTP settings for mailgun
   ActionMailer::Base.smtp_settings = {
     :port           => ENV['MAILGUN_SMTP_PORT'],
