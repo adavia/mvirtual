@@ -30,9 +30,9 @@ h6 {
   width: 100%;
   min-height: auto;
   overflow-y: hidden;
-  background: url(bg-pattern.png), #7b4397;
-  background: url(bg-pattern.png), -webkit-linear-gradient(to left,#001f3f,#33b3a6);
-  background: url(bg-pattern.png), linear-gradient(to left,#001f3f,#33b3a6);
+  background: image-url("bg-pattern.png"), #7b4397;
+  background: image-url("bg-pattern.png"), -webkit-linear-gradient(to left,#001f3f,#33b3a6);
+  background: image-url("bg-pattern.png"), linear-gradient(to left,#001f3f,#33b3a6);
   color: #fff;
   text-align: center;
   .site-heading h1 {
