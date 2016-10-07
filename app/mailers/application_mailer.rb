@@ -1,4 +1,4 @@
 class ApplicationMailer < ActionMailer::Base
-  default from: 'Contacto Mayordomo Virtual'
+  default from: 'admin@mayordomototal.com'
   layout 'mailer'
 end
