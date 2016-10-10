@@ -36,6 +36,8 @@ h6 {
   min-height: auto;
   overflow-y: hidden;
   color: #fff;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.1);
   text-align: center;
   .site-heading h1 {
     font-size: 50px;
@@ -47,7 +49,7 @@ h6 {
   border-radius: 2px;
   margin-top: 20px;
   background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.4);
   color: #fff;
   h3 {
     margin-top: 0;
