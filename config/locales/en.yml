@@ -20,4 +20,21 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  activerecord:
+    errors:
+      models:
+        contact:
+          attributes:
+            name:
+              blank: "el campo no puede estar vacío!"
+            email:
+              blank: "el campo no puede estar vacío!"
+              invalid: "el campo es inválido!"
+            phone:
+              blank: "el campo no puede estar vacío!"
+              too_long: "el campo no puede ser mayor a 10 dígitos!"
+            cel_phone:
+              blank: "el campo no puede estar vacío!"
+              too_long: "el campo no puede ser mayor a 10 dígitos!"
+            city:
+              blank: "el campo no puede estar vacío!"

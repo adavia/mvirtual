@@ -1,11 +1,10 @@
 .main
   .site-heading
-    = link_to image_tag("mvirtual.png", size: "300x100"), root_path
-    %span.subheading Líderes en servicios de outsourcing empresarial
+    = link_to image_tag("mvirtual.png", size: "350x120"), root_path
 
   %h2.text-center
     Comunícate sin costo alguno!
-    %span.text-danger MX 01800 4567 88 - US 01844 8001 689
+    %span.text-important MX 01800 4567 88
 
 .container
   .row
@@ -16,7 +15,7 @@
             .icon
               %i.fa.fa-check
             %p= notice
-        %h3.text-center Regístrate Aquí
+        %h3.text-center.text-important Regístrate Aquí
         = render "form"
         %p.text-uppercase.text-center Aceptamos todas las tarjetas de crédito
         .text-center

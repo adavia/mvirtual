@@ -1,4 +1,8 @@
 class Contact < ApplicationRecord
-  validates_presence_of :name, :email, :phone, :city, message: "el campo no puede estar vacío!"
-  validates_format_of :email, with: /\A[^@]+@([^@\.]+\.)+[^@\.]+\z/, message: "el correo no es válido!"
+  validates :phone, presence: true, unless: -> (contact){ contact.cel_phone.present? }
+  validates :phone, length: { maximum: 10 }
+  validates :cel_phone, presence: true, unless: -> (contact){ contact.phone.present? }
+  validates :cel_phone, length: { maximum: 10 }
+  validates_presence_of :name, :email, :city
+  validates_format_of :email, with: /\A[^@]+@([^@\.]+\.)+[^@\.]+\z/
 end
